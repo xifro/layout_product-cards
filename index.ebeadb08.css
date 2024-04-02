@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+}
+
+body, p {
+  margin: 0;
+  font-family: Roboto, sans-serif;
+}
+
+.product-card {
+  border: 1px solid #f3f3f3;
+  border-radius: 5px;
+  flex-direction: column;
+  width: 200px;
+  padding: 32px 16px 16px;
+  display: flex;
+}
+
+.product-card img {
+  height: 134px;
+  margin: 0 3px 40px;
+  display: block;
+}
+
+.product-card__description {
+  color: #060b35;
+  margin-bottom: 4px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.product-card__code {
+  color: #616070;
+  margin-bottom: 16px;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+.product-card__ratings {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+  display: flex;
+}
+
+.product-card__review {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+.product-card__prices {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+  display: flex;
+}
+
+.product-card__price {
+  color: #616070;
+  justify-content: space-between;
+  margin-right: 85px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  display: flex;
+}
+
+.product-card__dollar-price {
+  color: #060b35;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.product-card .button {
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #00acdc;
+  border: 1px solid #00acdc;
+  border-radius: 5px;
+  outline: none;
+  justify-content: space-between;
+  align-items: center;
+  width: 166px;
+  height: 40px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+}
+
+.product-card .button:hover {
+  color: #00acdc;
+  background-color: #f3f3f3;
+  border: 1px solid #00acdc;
+  align-items: center;
+  line-height: 16px;
+}
+
+.stars {
+  align-items: center;
+  margin: 0;
+  display: flex;
+}
+
+.stars__star {
+  background-image: url("star.fa806e3c.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+}
+
+.stars__star:not(:last-child) {
+  margin-right: 4px;
+}
+
+.stars--1 .stars__star:nth-child(-n+1), .stars--2 .stars__star:nth-child(-n+2), .stars--3 .stars__star:nth-child(-n+3), .stars--4 .stars__star:nth-child(-n+4) {
+  background-image: url("star-active.2be54011.svg");
+}
+/*# sourceMappingURL=index.ebeadb08.css.map */
